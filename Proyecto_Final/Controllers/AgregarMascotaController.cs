@@ -10,9 +10,9 @@ namespace Proyecto_Final.Controllers
             return View();
         }
 
-        public IActionResult AgregarMascota(AgregarMascota agregarMascota)
+        public IActionResult AgregarMascota(Mascota agregarMascota)
         {
-            _AgregarMascotas.Add(agregarMascota);
+            _Mascota.Add(agregarMascota);
             return RedirectToAction("Index.cshtml");
         }
     }
