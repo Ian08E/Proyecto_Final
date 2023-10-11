@@ -1,13 +1,14 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Proyecto_Final.Models;
 
 namespace Proyecto_Final.Controllers
 {
-    public class AgregarController : Controller
+    public class DonacionesController : Controller
     {
-        public IActionResult AgregarMascota()
+        public IActionResult Crear()
         {
             return View();
+
         }
+
     }
 }

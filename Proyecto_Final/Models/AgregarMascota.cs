@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using System;
 
 
@@ -14,4 +15,15 @@ public class Mascota
 
 	public string ?Raza { get; set; }
 
+=======
+﻿namespace Proyecto_Final.Models
+{
+    public class AgregarMascota
+    {
+        public int Id;
+        public string? Nombre;
+        public string? TipoMascota;
+        public int Edad;
+    }
+>>>>>>> f02cc14adc19514c316f551ff6a1eb2919ef232f
 }
