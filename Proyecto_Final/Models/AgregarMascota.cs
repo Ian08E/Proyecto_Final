@@ -1,14 +1,10 @@
-﻿using System;
-
-/// <summary>
-/// Summary description for Class1
-/// </summary>
-public class Class1
+﻿namespace Proyecto_Final.Models
 {
-	public Class1()
-	{
-		//
-		// TODO: Add constructor logic here
-		//
-	}
+    public class AgregarMascota
+    {
+        public int Id;
+        public string? Nombre;
+        public string? TipoMascota;
+        public int Edad;
+    }
 }

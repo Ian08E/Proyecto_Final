@@ -1,14 +1,13 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc;
+using Proyecto_Final.Models;
 
-/// <summary>
-/// Summary description for Class1
-/// </summary>
-public class Class1
+namespace Proyecto_Final.Controllers
 {
-	public Class1()
-	{
-		//
-		// TODO: Add constructor logic here
-		//
-	}
+    public class AgregarController : Controller
+    {
+        public IActionResult AgregarMascota()
+        {
+            return View();
+        }
+    }
 }
