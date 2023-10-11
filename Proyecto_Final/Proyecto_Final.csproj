@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Images\" />
+    <None Include="wwwroot\lib\Tienda.jpg" />
   </ItemGroup>
 
 </Project>
