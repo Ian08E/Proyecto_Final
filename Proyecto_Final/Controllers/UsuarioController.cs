@@ -1,6 +1,14 @@
-﻿namespace Proyecto_Final.Controllers
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace Proyecto_Final.Controllers
 {
-    public class UsuarioController
+    public class UsuarioController : Controller
     {
+        public IActionResult Crear()
+        {
+            return View();
+
+        }
+
     }
 }
