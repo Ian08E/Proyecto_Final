@@ -3,5 +3,15 @@
 
 public class Mascota
 {
-	
+	public int Id { get; set; }
+
+	public string ?Nombre_mascota { get; set; }
+
+	public int Edad { get; set; }
+
+
+	public string ?Dueño_Mascota { get; set; }
+
+	public string ?Raza { get; set; }
+
 }
