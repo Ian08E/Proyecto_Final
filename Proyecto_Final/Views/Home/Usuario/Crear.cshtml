@@ -1,6 +1,4 @@
-﻿@page
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-
+﻿
 
 @{
     ViewData["Title"] = "Crear Cuenta";
@@ -14,8 +12,12 @@
             <input type="text" class="form-control" id="Nombre" name="Nombre" required>
         </div>
         <div class="form-group">
-            <label for="TipoCuentaId">Tipo de Cuenta:</label>
-            <select class="form-control" id="TipoCuentaId" name="TipoCuentaId" asp-items="ViewBag.TiposCuenta"></select>
+            <label for="TipoCuentaId">Email :</label>
+            <select class="form-control" id="Email" name="Email" asp-items="ViewBag.Crear"></select>
+        </div>
+        <div class="form-group">
+            <label for="TipoCuentaId">Domicilio :</label>
+            <select class="form-control" id="Email" name="Email" asp-items="ViewBag.Crear"></select>
         </div>
         <button type="submit" class="btn btn-primary">Crear</button>
     </form>
