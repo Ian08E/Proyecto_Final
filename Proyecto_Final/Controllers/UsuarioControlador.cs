@@ -4,9 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TiendaMascota_v2.Modelo;
-using TiendaMascota_v2.Repositorio;
-
+using Proyecto_Final.Models;
 namespace TiendaMascota_v2.Controlador
 {
     public class UsuarioControlador
