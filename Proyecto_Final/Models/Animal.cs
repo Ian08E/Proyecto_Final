@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TiendaMascota_v2.Modelo
+namespace Proyecto_Final
 {
     public class Animal
     {
